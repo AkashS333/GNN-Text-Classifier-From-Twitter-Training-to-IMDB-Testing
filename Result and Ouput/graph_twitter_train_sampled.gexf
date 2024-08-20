@@ -1,0 +1,1801 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-08-09">
+    <creator>NetworkX 3.2.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="4" title="color" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="word" type="string" />
+      <attribute id="1" title="classification" type="string" />
+      <attribute id="2" title="color" type="string" />
+      <attribute id="3" title="text_color" type="string" />
+    </attributes>
+    <nodes>
+      <node id="4692" label="unseen">
+        <attvalues>
+          <attvalue for="0" value="unseen" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="3272" label="phone">
+        <attvalues>
+          <attvalue for="0" value="phone" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="3447" label="progress">
+        <attvalues>
+          <attvalue for="0" value="progress" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="3490" label="purely">
+        <attvalues>
+          <attvalue for="0" value="purely" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="4260" label="stronger">
+        <attvalues>
+          <attvalue for="0" value="stronger" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="4912" label="wishes">
+        <attvalues>
+          <attvalue for="0" value="wishes" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="276" label="appearance">
+        <attvalues>
+          <attvalue for="0" value="appearance" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="381" label="awkward">
+        <attvalues>
+          <attvalue for="0" value="awkward" />
+          <attvalue for="1" value="negative" />
+          <attvalue for="2" value="red" />
+          <attvalue for="3" value="#FF0000" />
+        </attvalues>
+      </node>
+      <node id="3653" label="renting">
+        <attvalues>
+          <attvalue for="0" value="renting" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="3745" label="rod">
+        <attvalues>
+          <attvalue for="0" value="rod" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="3574" label="reasons">
+        <attvalues>
+          <attvalue for="0" value="reasons" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="2318" label="interaction">
+        <attvalues>
+          <attvalue for="0" value="interaction" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="1247" label="dies">
+        <attvalues>
+          <attvalue for="0" value="dies" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="1596" label="extended">
+        <attvalues>
+          <attvalue for="0" value="extended" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="1440" label="else">
+        <attvalues>
+          <attvalue for="0" value="else" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="892" label="comment">
+        <attvalues>
+          <attvalue for="0" value="comment" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="4428" label="tells">
+        <attvalues>
+          <attvalue for="0" value="tells" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="848" label="clothes">
+        <attvalues>
+          <attvalue for="0" value="clothes" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="2192" label="humour">
+        <attvalues>
+          <attvalue for="0" value="humour" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="1060" label="crimes">
+        <attvalues>
+          <attvalue for="0" value="crimes" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="2108" label="hills">
+        <attvalues>
+          <attvalue for="0" value="hills" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="1783" label="foreign">
+        <attvalues>
+          <attvalue for="0" value="foreign" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="174" label="album">
+        <attvalues>
+          <attvalue for="0" value="album" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="349" label="attendant">
+        <attvalues>
+          <attvalue for="0" value="attendant" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="3777" label="ruin">
+        <attvalues>
+          <attvalue for="0" value="ruin" />
+          <attvalue for="1" value="negative" />
+          <attvalue for="2" value="red" />
+          <attvalue for="3" value="#FF0000" />
+        </attvalues>
+      </node>
+      <node id="213" label="ambitious">
+        <attvalues>
+          <attvalue for="0" value="ambitious" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="4742" label="victims">
+        <attvalues>
+          <attvalue for="0" value="victims" />
+          <attvalue for="1" value="negative" />
+          <attvalue for="2" value="red" />
+          <attvalue for="3" value="#FF0000" />
+        </attvalues>
+      </node>
+      <node id="4521" label="titled">
+        <attvalues>
+          <attvalue for="0" value="titled" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="87" label="accident">
+        <attvalues>
+          <attvalue for="0" value="accident" />
+          <attvalue for="1" value="negative" />
+          <attvalue for="2" value="red" />
+          <attvalue for="3" value="#FF0000" />
+        </attvalues>
+      </node>
+      <node id="1408" label="edgy">
+        <attvalues>
+          <attvalue for="0" value="edgy" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="1593" label="express">
+        <attvalues>
+          <attvalue for="0" value="express" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="4989" label="young">
+        <attvalues>
+          <attvalue for="0" value="young" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="948" label="connery">
+        <attvalues>
+          <attvalue for="0" value="connery" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="4009" label="similarities">
+        <attvalues>
+          <attvalue for="0" value="similarities" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="1495" label="entirely">
+        <attvalues>
+          <attvalue for="0" value="entirely" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="1633" label="fame">
+        <attvalues>
+          <attvalue for="0" value="fame" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="4777" label="volume">
+        <attvalues>
+          <attvalue for="0" value="volume" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="3969" label="shocked">
+        <attvalues>
+          <attvalue for="0" value="shocked" />
+          <attvalue for="1" value="negative" />
+          <attvalue for="2" value="red" />
+          <attvalue for="3" value="#FF0000" />
+        </attvalues>
+      </node>
+      <node id="358" label="audiencebr">
+        <attvalues>
+          <attvalue for="0" value="audiencebr" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="973" label="continues">
+        <attvalues>
+          <attvalue for="0" value="continues" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="1758" label="focuses">
+        <attvalues>
+          <attvalue for="0" value="focuses" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="3976" label="shorter">
+        <attvalues>
+          <attvalue for="0" value="shorter" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="2089" label="heroin">
+        <attvalues>
+          <attvalue for="0" value="heroin" />
+          <attvalue for="1" value="negative" />
+          <attvalue for="2" value="red" />
+          <attvalue for="3" value="#FF0000" />
+        </attvalues>
+      </node>
+      <node id="3042" label="noir">
+        <attvalues>
+          <attvalue for="0" value="noir" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="1186" label="depicting">
+        <attvalues>
+          <attvalue for="0" value="depicting" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="1587" label="exploitation">
+        <attvalues>
+          <attvalue for="0" value="exploitation" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="4976" label="wwe">
+        <attvalues>
+          <attvalue for="0" value="wwe" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="4611" label="truck">
+        <attvalues>
+          <attvalue for="0" value="truck" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="3617" label="relationships">
+        <attvalues>
+          <attvalue for="0" value="relationships" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="3765" label="rose">
+        <attvalues>
+          <attvalue for="0" value="rose" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="4622" label="turkey">
+        <attvalues>
+          <attvalue for="0" value="turkey" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="4291" label="subplots">
+        <attvalues>
+          <attvalue for="0" value="subplots" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="4923" label="womans">
+        <attvalues>
+          <attvalue for="0" value="womans" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="3972" label="shooting">
+        <attvalues>
+          <attvalue for="0" value="shooting" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="4880" label="whos">
+        <attvalues>
+          <attvalue for="0" value="whos" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="2411" label="join">
+        <attvalues>
+          <attvalue for="0" value="join" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="1477" label="enjoy">
+        <attvalues>
+          <attvalue for="0" value="enjoy" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="2660" label="loosely">
+        <attvalues>
+          <attvalue for="0" value="loosely" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="846" label="closeups">
+        <attvalues>
+          <attvalue for="0" value="closeups" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="1703" label="film">
+        <attvalues>
+          <attvalue for="0" value="film" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="3647" label="remotely">
+        <attvalues>
+          <attvalue for="0" value="remotely" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="2221" label="ignore">
+        <attvalues>
+          <attvalue for="0" value="ignore" />
+          <attvalue for="1" value="negative" />
+          <attvalue for="2" value="red" />
+          <attvalue for="3" value="#FF0000" />
+        </attvalues>
+      </node>
+      <node id="4691" label="unsatisfying">
+        <attvalues>
+          <attvalue for="0" value="unsatisfying" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="3262" label="persons">
+        <attvalues>
+          <attvalue for="0" value="persons" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="3946" label="shaky">
+        <attvalues>
+          <attvalue for="0" value="shaky" />
+          <attvalue for="1" value="negative" />
+          <attvalue for="2" value="red" />
+          <attvalue for="3" value="#FF0000" />
+        </attvalues>
+      </node>
+      <node id="1293" label="disneys">
+        <attvalues>
+          <attvalue for="0" value="disneys" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="1756" label="focus">
+        <attvalues>
+          <attvalue for="0" value="focus" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="1791" label="form">
+        <attvalues>
+          <attvalue for="0" value="form" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="3926" label="serves">
+        <attvalues>
+          <attvalue for="0" value="serves" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="3224" label="pat">
+        <attvalues>
+          <attvalue for="0" value="pat" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="3003" label="necessary">
+        <attvalues>
+          <attvalue for="0" value="necessary" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="1686" label="festival">
+        <attvalues>
+          <attvalue for="0" value="festival" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="2474" label="kilmer">
+        <attvalues>
+          <attvalue for="0" value="kilmer" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="538" label="boom">
+        <attvalues>
+          <attvalue for="0" value="boom" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="3478" label="pull">
+        <attvalues>
+          <attvalue for="0" value="pull" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="367" label="authentic">
+        <attvalues>
+          <attvalue for="0" value="authentic" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="1053" label="credit">
+        <attvalues>
+          <attvalue for="0" value="credit" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="1705" label="filmed">
+        <attvalues>
+          <attvalue for="0" value="filmed" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="474" label="beverly">
+        <attvalues>
+          <attvalue for="0" value="beverly" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="4949" label="worlds">
+        <attvalues>
+          <attvalue for="0" value="worlds" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="1629" label="fallen">
+        <attvalues>
+          <attvalue for="0" value="fallen" />
+          <attvalue for="1" value="negative" />
+          <attvalue for="2" value="red" />
+          <attvalue for="3" value="#FF0000" />
+        </attvalues>
+      </node>
+      <node id="2848" label="mighty">
+        <attvalues>
+          <attvalue for="0" value="mighty" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="4747" label="vietnam">
+        <attvalues>
+          <attvalue for="0" value="vietnam" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="4536" label="tons">
+        <attvalues>
+          <attvalue for="0" value="tons" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="4267" label="struggling">
+        <attvalues>
+          <attvalue for="0" value="struggling" />
+          <attvalue for="1" value="negative" />
+          <attvalue for="2" value="red" />
+          <attvalue for="3" value="#FF0000" />
+        </attvalues>
+      </node>
+      <node id="4140" label="spin">
+        <attvalues>
+          <attvalue for="0" value="spin" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="3036" label="nights">
+        <attvalues>
+          <attvalue for="0" value="nights" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="4577" label="transition">
+        <attvalues>
+          <attvalue for="0" value="transition" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="581" label="brief">
+        <attvalues>
+          <attvalue for="0" value="brief" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="3354" label="portion">
+        <attvalues>
+          <attvalue for="0" value="portion" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="316" label="asked">
+        <attvalues>
+          <attvalue for="0" value="asked" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="925" label="con">
+        <attvalues>
+          <attvalue for="0" value="con" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="3911" label="sentence">
+        <attvalues>
+          <attvalue for="0" value="sentence" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="4792" label="walken">
+        <attvalues>
+          <attvalue for="0" value="walken" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="2155" label="hopeless">
+        <attvalues>
+          <attvalue for="0" value="hopeless" />
+          <attvalue for="1" value="negative" />
+          <attvalue for="2" value="red" />
+          <attvalue for="3" value="#FF0000" />
+        </attvalues>
+      </node>
+      <node id="122" label="addiction">
+        <attvalues>
+          <attvalue for="0" value="addiction" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="4173" label="standards">
+        <attvalues>
+          <attvalue for="0" value="standards" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="708" label="cassavetes">
+        <attvalues>
+          <attvalue for="0" value="cassavetes" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="4861" label="werewolf">
+        <attvalues>
+          <attvalue for="0" value="werewolf" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="2912" label="months">
+        <attvalues>
+          <attvalue for="0" value="months" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="3372" label="potentially">
+        <attvalues>
+          <attvalue for="0" value="potentially" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="1847" label="furthermore">
+        <attvalues>
+          <attvalue for="0" value="furthermore" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="3712" label="richard">
+        <attvalues>
+          <attvalue for="0" value="richard" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="3805" label="san">
+        <attvalues>
+          <attvalue for="0" value="san" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="75" label="absolutely">
+        <attvalues>
+          <attvalue for="0" value="absolutely" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="2979" label="name">
+        <attvalues>
+          <attvalue for="0" value="name" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="3817" label="saturday">
+        <attvalues>
+          <attvalue for="0" value="saturday" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="2711" label="madsen">
+        <attvalues>
+          <attvalue for="0" value="madsen" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="3819" label="save">
+        <attvalues>
+          <attvalue for="0" value="save" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="4653" label="underground">
+        <attvalues>
+          <attvalue for="0" value="underground" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="1849" label="futuristic">
+        <attvalues>
+          <attvalue for="0" value="futuristic" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="161" label="ah">
+        <attvalues>
+          <attvalue for="0" value="ah" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="4351" label="survival">
+        <attvalues>
+          <attvalue for="0" value="survival" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="3379" label="practically">
+        <attvalues>
+          <attvalue for="0" value="practically" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="2926" label="motions">
+        <attvalues>
+          <attvalue for="0" value="motions" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="3232" label="paul">
+        <attvalues>
+          <attvalue for="0" value="paul" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="4760" label="violence">
+        <attvalues>
+          <attvalue for="0" value="violence" />
+          <attvalue for="1" value="negative" />
+          <attvalue for="2" value="red" />
+          <attvalue for="3" value="#FF0000" />
+        </attvalues>
+      </node>
+      <node id="2479" label="king">
+        <attvalues>
+          <attvalue for="0" value="king" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="1143" label="dear">
+        <attvalues>
+          <attvalue for="0" value="dear" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="553" label="bought">
+        <attvalues>
+          <attvalue for="0" value="bought" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="2495" label="komodo">
+        <attvalues>
+          <attvalue for="0" value="komodo" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="2432" label="jumps">
+        <attvalues>
+          <attvalue for="0" value="jumps" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="3637" label="remarkable">
+        <attvalues>
+          <attvalue for="0" value="remarkable" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="1654" label="fatal">
+        <attvalues>
+          <attvalue for="0" value="fatal" />
+          <attvalue for="1" value="negative" />
+          <attvalue for="2" value="red" />
+          <attvalue for="3" value="#FF0000" />
+        </attvalues>
+      </node>
+      <node id="2286" label="initial">
+        <attvalues>
+          <attvalue for="0" value="initial" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="1481" label="enjoyment">
+        <attvalues>
+          <attvalue for="0" value="enjoyment" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="203" label="alvin">
+        <attvalues>
+          <attvalue for="0" value="alvin" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="4342" label="surgery">
+        <attvalues>
+          <attvalue for="0" value="surgery" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="54" label="50s">
+        <attvalues>
+          <attvalue for="0" value="50s" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="2563" label="left">
+        <attvalues>
+          <attvalue for="0" value="left" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="4695" label="unwatchable">
+        <attvalues>
+          <attvalue for="0" value="unwatchable" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="2695" label="lugosi">
+        <attvalues>
+          <attvalue for="0" value="lugosi" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="4831" label="wave">
+        <attvalues>
+          <attvalue for="0" value="wave" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="1869" label="general">
+        <attvalues>
+          <attvalue for="0" value="general" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="746" label="change">
+        <attvalues>
+          <attvalue for="0" value="change" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="4309" label="suffer">
+        <attvalues>
+          <attvalue for="0" value="suffer" />
+          <attvalue for="1" value="negative" />
+          <attvalue for="2" value="red" />
+          <attvalue for="3" value="#FF0000" />
+        </attvalues>
+      </node>
+      <node id="2732" label="man">
+        <attvalues>
+          <attvalue for="0" value="man" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="4631" label="twice">
+        <attvalues>
+          <attvalue for="0" value="twice" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="1823" label="french">
+        <attvalues>
+          <attvalue for="0" value="french" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="1123" label="dated">
+        <attvalues>
+          <attvalue for="0" value="dated" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="4572" label="trailers">
+        <attvalues>
+          <attvalue for="0" value="trailers" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="1647" label="farm">
+        <attvalues>
+          <attvalue for="0" value="farm" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="4037" label="size">
+        <attvalues>
+          <attvalue for="0" value="size" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="1743" label="flaws">
+        <attvalues>
+          <attvalue for="0" value="flaws" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="3907" label="senses">
+        <attvalues>
+          <attvalue for="0" value="senses" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="2587" label="level">
+        <attvalues>
+          <attvalue for="0" value="level" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="2044" label="hatred">
+        <attvalues>
+          <attvalue for="0" value="hatred" />
+          <attvalue for="1" value="negative" />
+          <attvalue for="2" value="red" />
+          <attvalue for="3" value="#FF0000" />
+        </attvalues>
+      </node>
+      <node id="3966" label="ships">
+        <attvalues>
+          <attvalue for="0" value="ships" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="1552" label="exception">
+        <attvalues>
+          <attvalue for="0" value="exception" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="4427" label="telling">
+        <attvalues>
+          <attvalue for="0" value="telling" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="690" label="carmen">
+        <attvalues>
+          <attvalue for="0" value="carmen" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="3160" label="outfit">
+        <attvalues>
+          <attvalue for="0" value="outfit" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="4090" label="somebody">
+        <attvalues>
+          <attvalue for="0" value="somebody" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="2140" label="home">
+        <attvalues>
+          <attvalue for="0" value="home" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="4216" label="stiff">
+        <attvalues>
+          <attvalue for="0" value="stiff" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="3686" label="restaurant">
+        <attvalues>
+          <attvalue for="0" value="restaurant" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="67" label="abandoned">
+        <attvalues>
+          <attvalue for="0" value="abandoned" />
+          <attvalue for="1" value="negative" />
+          <attvalue for="2" value="red" />
+          <attvalue for="3" value="#FF0000" />
+        </attvalues>
+      </node>
+      <node id="1618" label="failed">
+        <attvalues>
+          <attvalue for="0" value="failed" />
+          <attvalue for="1" value="negative" />
+          <attvalue for="2" value="red" />
+          <attvalue for="3" value="#FF0000" />
+        </attvalues>
+      </node>
+      <node id="3312" label="playboy">
+        <attvalues>
+          <attvalue for="0" value="playboy" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="1103" label="damage">
+        <attvalues>
+          <attvalue for="0" value="damage" />
+          <attvalue for="1" value="negative" />
+          <attvalue for="2" value="red" />
+          <attvalue for="3" value="#FF0000" />
+        </attvalues>
+      </node>
+      <node id="1058" label="cried">
+        <attvalues>
+          <attvalue for="0" value="cried" />
+          <attvalue for="1" value="negative" />
+          <attvalue for="2" value="red" />
+          <attvalue for="3" value="#FF0000" />
+        </attvalues>
+      </node>
+      <node id="858" label="coast">
+        <attvalues>
+          <attvalue for="0" value="coast" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="7" label="12">
+        <attvalues>
+          <attvalue for="0" value="12" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="4299" label="succeeds">
+        <attvalues>
+          <attvalue for="0" value="succeeds" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="3184" label="page">
+        <attvalues>
+          <attvalue for="0" value="page" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="2328" label="interviews">
+        <attvalues>
+          <attvalue for="0" value="interviews" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="2667" label="loss">
+        <attvalues>
+          <attvalue for="0" value="loss" />
+          <attvalue for="1" value="negative" />
+          <attvalue for="2" value="red" />
+          <attvalue for="3" value="#FF0000" />
+        </attvalues>
+      </node>
+      <node id="1526" label="european">
+        <attvalues>
+          <attvalue for="0" value="european" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="636" label="butt">
+        <attvalues>
+          <attvalue for="0" value="butt" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="4210" label="steve">
+        <attvalues>
+          <attvalue for="0" value="steve" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="3103" label="offbeat">
+        <attvalues>
+          <attvalue for="0" value="offbeat" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="1316" label="done">
+        <attvalues>
+          <attvalue for="0" value="done" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="1485" label="ensemble">
+        <attvalues>
+          <attvalue for="0" value="ensemble" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="2984" label="narration">
+        <attvalues>
+          <attvalue for="0" value="narration" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="1776" label="football">
+        <attvalues>
+          <attvalue for="0" value="football" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="1347" label="dreadful">
+        <attvalues>
+          <attvalue for="0" value="dreadful" />
+          <attvalue for="1" value="negative" />
+          <attvalue for="2" value="red" />
+          <attvalue for="3" value="#FF0000" />
+        </attvalues>
+      </node>
+      <node id="3735" label="rob">
+        <attvalues>
+          <attvalue for="0" value="rob" />
+          <attvalue for="1" value="negative" />
+          <attvalue for="2" value="red" />
+          <attvalue for="3" value="#FF0000" />
+        </attvalues>
+      </node>
+      <node id="1730" label="fit">
+        <attvalues>
+          <attvalue for="0" value="fit" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="2794" label="means">
+        <attvalues>
+          <attvalue for="0" value="means" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="467" label="best">
+        <attvalues>
+          <attvalue for="0" value="best" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="4175" label="stands">
+        <attvalues>
+          <attvalue for="0" value="stands" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="3136" label="opens">
+        <attvalues>
+          <attvalue for="0" value="opens" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="2485" label="knife">
+        <attvalues>
+          <attvalue for="0" value="knife" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="1536" label="everyday">
+        <attvalues>
+          <attvalue for="0" value="everyday" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="1559" label="exciting">
+        <attvalues>
+          <attvalue for="0" value="exciting" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="3027" label="nice">
+        <attvalues>
+          <attvalue for="0" value="nice" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="1915" label="godawful">
+        <attvalues>
+          <attvalue for="0" value="godawful" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="869" label="colorful">
+        <attvalues>
+          <attvalue for="0" value="colorful" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="1899" label="girlfriend">
+        <attvalues>
+          <attvalue for="0" value="girlfriend" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="2740" label="mansion">
+        <attvalues>
+          <attvalue for="0" value="mansion" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="3858" label="screenbr">
+        <attvalues>
+          <attvalue for="0" value="screenbr" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="2270" label="indiana">
+        <attvalues>
+          <attvalue for="0" value="indiana" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="2696" label="lukas">
+        <attvalues>
+          <attvalue for="0" value="lukas" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="3596" label="references">
+        <attvalues>
+          <attvalue for="0" value="references" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="2893" label="models">
+        <attvalues>
+          <attvalue for="0" value="models" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="4335" label="supporting">
+        <attvalues>
+          <attvalue for="0" value="supporting" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="3364" label="possessed">
+        <attvalues>
+          <attvalue for="0" value="possessed" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="2152" label="hope">
+        <attvalues>
+          <attvalue for="0" value="hope" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="1643" label="fantasy">
+        <attvalues>
+          <attvalue for="0" value="fantasy" />
+          <attvalue for="1" value="positive" />
+          <attvalue for="2" value="green" />
+          <attvalue for="3" value="#00FF00" />
+        </attvalues>
+      </node>
+      <node id="380" label="awful">
+        <attvalues>
+          <attvalue for="0" value="awful" />
+          <attvalue for="1" value="negative" />
+          <attvalue for="2" value="red" />
+          <attvalue for="3" value="#FF0000" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="3272" target="1247" id="0">
+        <attvalues>
+          <attvalue for="4" value="blue" />
+        </attvalues>
+      </edge>
+      <edge source="3272" target="2318" id="1">
+        <attvalues>
+          <attvalue for="4" value="blue" />
+        </attvalues>
+      </edge>
+      <edge source="3447" target="2912" id="2">
+        <attvalues>
+          <attvalue for="4" value="blue" />
+        </attvalues>
+      </edge>
+      <edge source="381" target="1316" id="3">
+        <attvalues>
+          <attvalue for="4" value="blue" />
+        </attvalues>
+      </edge>
+      <edge source="3653" target="2912" id="4">
+        <attvalues>
+          <attvalue for="4" value="blue" />
+        </attvalues>
+      </edge>
+      <edge source="3574" target="3817" id="5">
+        <attvalues>
+          <attvalue for="4" value="blue" />
+        </attvalues>
+      </edge>
+      <edge source="3574" target="1143" id="6">
+        <attvalues>
+          <attvalue for="4" value="blue" />
+        </attvalues>
+      </edge>
+      <edge source="1440" target="2152" id="7">
+        <attvalues>
+          <attvalue for="4" value="blue" />
+        </attvalues>
+      </edge>
+      <edge source="892" target="1791" id="8">
+        <attvalues>
+          <attvalue for="4" value="blue" />
+        </attvalues>
+      </edge>
+      <edge source="2108" target="2979" id="9">
+        <attvalues>
+          <attvalue for="4" value="blue" />
+        </attvalues>
+      </edge>
+      <edge source="2108" target="2912" id="10">
+        <attvalues>
+          <attvalue for="4" value="blue" />
+        </attvalues>
+      </edge>
+      <edge source="174" target="581" id="11">
+        <attvalues>
+          <attvalue for="4" value="blue" />
+        </attvalues>
+      </edge>
+      <edge source="3777" target="2563" id="12">
+        <attvalues>
+          <attvalue for="4" value="blue" />
+        </attvalues>
+      </edge>
+      <edge source="87" target="316" id="13">
+        <attvalues>
+          <attvalue for="4" value="blue" />
+        </attvalues>
+      </edge>
+      <edge source="1633" target="2152" id="14">
+        <attvalues>
+          <attvalue for="4" value="blue" />
+        </attvalues>
+      </edge>
+      <edge source="3042" target="553" id="15">
+        <attvalues>
+          <attvalue for="4" value="blue" />
+        </attvalues>
+      </edge>
+      <edge source="3617" target="1477" id="16">
+        <attvalues>
+          <attvalue for="4" value="blue" />
+        </attvalues>
+      </edge>
+      <edge source="4622" target="1559" id="17">
+        <attvalues>
+          <attvalue for="4" value="blue" />
+        </attvalues>
+      </edge>
+      <edge source="4923" target="3027" id="18">
+        <attvalues>
+          <attvalue for="4" value="blue" />
+        </attvalues>
+      </edge>
+      <edge source="1477" target="2221" id="19">
+        <attvalues>
+          <attvalue for="4" value="blue" />
+        </attvalues>
+      </edge>
+      <edge source="1703" target="2140" id="20">
+        <attvalues>
+          <attvalue for="4" value="blue" />
+        </attvalues>
+      </edge>
+      <edge source="1629" target="1316" id="21">
+        <attvalues>
+          <attvalue for="4" value="blue" />
+        </attvalues>
+      </edge>
+      <edge source="3036" target="690" id="22">
+        <attvalues>
+          <attvalue for="4" value="blue" />
+        </attvalues>
+      </edge>
+      <edge source="122" target="3027" id="23">
+        <attvalues>
+          <attvalue for="4" value="blue" />
+        </attvalues>
+      </edge>
+      <edge source="708" target="2140" id="24">
+        <attvalues>
+          <attvalue for="4" value="blue" />
+        </attvalues>
+      </edge>
+      <edge source="2711" target="3232" id="25">
+        <attvalues>
+          <attvalue for="4" value="blue" />
+        </attvalues>
+      </edge>
+      <edge source="553" target="2587" id="26">
+        <attvalues>
+          <attvalue for="4" value="blue" />
+        </attvalues>
+      </edge>
+      <edge source="2563" target="4695" id="27">
+        <attvalues>
+          <attvalue for="4" value="blue" />
+        </attvalues>
+      </edge>
+      <edge source="2732" target="869" id="28">
+        <attvalues>
+          <attvalue for="4" value="blue" />
+        </attvalues>
+      </edge>
+      <edge source="2732" target="2152" id="29">
+        <attvalues>
+          <attvalue for="4" value="blue" />
+        </attvalues>
+      </edge>
+      <edge source="2732" target="4299" id="30">
+        <attvalues>
+          <attvalue for="4" value="blue" />
+        </attvalues>
+      </edge>
+      <edge source="4572" target="2794" id="31">
+        <attvalues>
+          <attvalue for="4" value="blue" />
+        </attvalues>
+      </edge>
+      <edge source="2587" target="2140" id="32">
+        <attvalues>
+          <attvalue for="4" value="blue" />
+        </attvalues>
+      </edge>
+      <edge source="2140" target="4210" id="33">
+        <attvalues>
+          <attvalue for="4" value="blue" />
+        </attvalues>
+      </edge>
+      <edge source="3027" target="2696" id="34">
+        <attvalues>
+          <attvalue for="4" value="blue" />
+        </attvalues>
+      </edge>
+      <edge source="3364" target="2152" id="35">
+        <attvalues>
+          <attvalue for="4" value="blue" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
